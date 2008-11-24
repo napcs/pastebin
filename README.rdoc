@@ -1,0 +1,15 @@
+= PasteBin
+
+This is a very simple pastebin application that I use when
+giving talks on how to do behavior-driven development with 
+Ruby on Rails.
+
+== Installation and Usage
+This requires the Ruby on Rails framework.  If you wish to run the 
+Integration tests, you'll need the Webrat gem.
+
+== License
+
+Copyright 2008 Brian P. Hogan under the MIT license.  Do what you want with this code,
+just don't claim it as your own. There's no warranties here either and no guarantee that
+this will even work for you.
