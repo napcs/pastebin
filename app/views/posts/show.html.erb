@@ -1,0 +1,7 @@
+<h1><%=@post.title %></h1>
+<hr />
+<div id="code">
+  <pre><%=h(@post.code) %></pre>
+</div>
+<hr />
+<p><%=link_to "Create a new post", new_post_path %></p>

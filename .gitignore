@@ -1,0 +1,5 @@
+config/deploy.rb
+config/database.yml
+log/*.log
+tmp/sessions/*
+tmp/cache/*

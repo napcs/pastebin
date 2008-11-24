@@ -1,0 +1,15 @@
+
+<%=error_messages_for :post, :header_message => "You've got errors in your post!" %>
+<% form_for @post do |f| %>
+	
+	<p>Title<br />
+	<%=f.text_field :title %>
+	</p>
+	
+	<p>Code<br />
+	<%=f.text_area :code %>
+	</p>
+	
+	<%=submit_tag "Post it!" %>
+	
+<% end %>
