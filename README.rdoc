@@ -8,6 +8,15 @@ Ruby on Rails.
 This requires the Ruby on Rails framework.  If you wish to run the 
 Integration tests, you'll need the Webrat gem.
 
+You'll also need SQLite3.
+
+To use, rename the database.yml.example file to database.yml and then run the following commands:
+
+  rake db:migrate
+  ruby script/server
+  
+Then visit http://localhost:3000 to give it a try.
+
 == License
 
 Copyright 2008 Brian P. Hogan under the MIT license.  Do what you want with this code,
